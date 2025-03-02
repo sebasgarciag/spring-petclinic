@@ -10,4 +10,4 @@ RUN ./mvnw dependency:resolve
 
 COPY src ./src
 
-CMD ["./mvnw", "spring-boot:run" , "-Dspring.profiles.active=postgres", "-Dspring-boot.run.profiles=postgres", "-Dlogging.level.root=DEBUG"]
+CMD ["./mvnw", "spring-boot:run" , "-Dspring-boot.run.profiles=postgres"]
