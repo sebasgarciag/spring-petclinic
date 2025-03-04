@@ -93,6 +93,11 @@
       <artifactId>postgresql</artifactId>
       <scope>runtime</scope>
     </dependency>
+    <dependency>
+      <groupId>com.google.cloud.sql</groupId>
+      <artifactId>postgres-socket-factory</artifactId>
+      <scope>1.15.2</scope>
+    </dependency>
 
     <!-- Caching -->
     <dependency>
